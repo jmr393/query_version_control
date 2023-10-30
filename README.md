@@ -13,8 +13,8 @@ Docker to create the function container
 Slack to notify your team of changes to queries
 Set the following environment variables:
 
-DYNAMODBTABLENAME: The name of your DynamoDB table
-GITLABTOKEN: Your Gitlab Account Token
+- `DYNAMODBTABLENAME`: The name of your DynamoDB table
+- `GITLABTOKEN`: Your Gitlab Account Token
 SLACKMETABASETOKEN: Your Slack App Token
 MB_SLACK_CHANNEL: The ID of the Slack channel that you will use to alert to query updates (e.g. #eng-data-ops)
 MB_SESSION: Your Metabase session ID (The script will reset this periodically)
